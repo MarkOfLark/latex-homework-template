@@ -26,7 +26,7 @@
 
 \pagestyle{fancy}
 \lhead{\hmwkAuthorName}
-\chead{\hmwkClass\ (\hmwkClassInstructor\ \hmwkClassTime): \hmwkTitle}
+\chead{\hmwkClass\ (\hmwkClassInstructor\hmwkClassTime): \hmwkTitle}
 \rhead{\firstxmark}
 \lfoot{\lastxmark}
 \cfoot{\thepage}
@@ -80,6 +80,7 @@
 % Homework Details
 %   - Title
 %   - Due date
+%   - Due Time
 %   - Class
 %   - Section/Time
 %   - Instructor
@@ -88,9 +89,8 @@
 
 \newcommand{\hmwkTitle}{Paper Title}
 \newcommand{\hmwkDueDate}{Due Date}
-\newcommand{\hmwkDueTime}{Due Time}
 \newcommand{\hmwkClass}{Class Title}
-\newcommand{\hmwkClassTime}{Section}
+\newcommand{\hmwkClassTime}{} % include a leading space if you choose to use this field
 \newcommand{\hmwkClassInstructor}{Instructor}
 \newcommand{\hmwkAuthorName}{\textbf{Author}}
 
@@ -98,11 +98,12 @@
 % Title Page
 %
 
+
 \title{
     \vspace{2in}
     \textmd{\textbf{\hmwkClass:\ \hmwkTitle}}\\
-    \normalsize\vspace{0.1in}\small{Due\ on\ \hmwkDueDate\ at \hmwkDueTime}\\
-    \vspace{0.1in}\large{\textit{\hmwkClassInstructor\ \hmwkClassTime}}
+    \normalsize\vspace{0.1in}\small{Due\ on\ \hmwkDueDate}\\
+    \vspace{0.1in}\large{\textit{\hmwkClassInstructor\hmwkClassTime}}
     \vspace{3in}
 }
 
